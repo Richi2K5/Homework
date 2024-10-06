@@ -1,0 +1,30 @@
+The entities of The Angel Warehouse include: Items, Bins, Bays, Forklifts and Parking spots.
+
+The Attributes and Keys for the entities are:
+
+Item (Entity)
+Item's Unique Number (Key)
+The date an item was taken into the warehouse
+The item's weight
+What bin the item is assigned to
+The date an item is put into a particular bin
+
+Bins (Entity)
+Bin Number (Key)
+The maximum loaded weight for a specific bin
+The size of each bin
+
+Bay (Entity)
+Bay Number (Key)
+Bay location
+The height of each bay
+Number of bins in the bay
+
+Forklift (Entity)
+Unique equipment number (Key)
+What bay it is allocated to
+Maximum carrying weight for the forklift
+Whether the forklift is petrol or electric
+Forklift parking spot
+
+Parking Spot (Entity)
