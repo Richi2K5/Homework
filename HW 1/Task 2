@@ -1,0 +1,27 @@
+The entities of Finsbury Happy Zoo include: enclosures, animals,  species and Zoo Keeper.
+
+The attributes and keys for the entities at Finsbury Happy Zoo are:
+
+Enclosures (Entity)
+Enclosure's unique number (Key)
+Habitat Type
+Main feature
+Size
+Maximum number of animals of a particular species for specific enclosures
+
+Animals (Entity)
+Unique ID (Key)
+Name
+Date of birth
+Diet
+Description of the animal
+Start and End date for when an animal is placed and leaves a particular enclosure
+Notes on individual animals and the date they were taken
+
+Species (Entity)
+Name (Key)
+Comapatibilty ratings
+Description of the species
+Habitat Type
+
+Zoo Keeper (Entity)
